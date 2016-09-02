@@ -1,5 +1,5 @@
 # LoanAdvisor
-# Android App
+##Android App
 ##Introduction
 The Domain that my assignment is based on is the loan domain. So i decide to create a domain that allows users to take out small loans based on their salaries.The system will then use the user salary and the amount of money they would like to loan to determine if the user would receive the the amount they would like or not. 
 
