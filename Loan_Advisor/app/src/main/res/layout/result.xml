@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/ResultTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="72dp" android:text="New Text" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <EditText android:id="@id/MailResulteditText" android:layout_width="-2" android:layout_height="-2" android:text="example@gmail.com" android:ems="10" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:inputType="21" />
+    <TextView android:id="@id/textView15" android:layout_width="-2" android:layout_height="-2" android:text="Enter Email Address" android:layout_above="@id/MailResulteditText" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/button8" android:layout_width="-2" android:layout_height="-2" android:text="mail" android:layout_below="@id/MailResulteditText" android:layout_centerHorizontal="true" android:onClick="Mail" />
+    <Button android:id="@id/button9" android:layout_width="-2" android:layout_height="-2" android:text="Home" android:layout_below="@id/button8" android:layout_alignLeft="@id/button8" android:onClick="Home" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "loan.advisor.lukekramer.assignment6"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'org.mindrot:jbcrypt:0.3m'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.okhttp3:okhttp-urlconnection:3.2.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'org.apache.httpcomponents:httpcore:4.4.4'
+    androidTestCompile 'junit:junit:4.12'
+    compile files('/home/admin/Desktop/Assignment6.2-latest/libs/activation.jar')
+    compile files('/home/admin/Desktop/Assignment6.2-latest/libs/additionnal.jar')
+    compile files('/home/admin/Desktop/Assignment6.2-latest/libs/mail.jar')
+}

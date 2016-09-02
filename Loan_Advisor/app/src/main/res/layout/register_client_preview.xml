@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preview"
+        android:id="@+id/Preview_TextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="firstname"
+        android:id="@+id/firstname_TextView"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/Preview_TextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lastname"
+        android:id="@+id/lastname_TextView"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/firstname_TextView"
+        android:layout_alignLeft="@+id/firstname_TextView"
+        android:layout_alignStart="@+id/firstname_TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phonenumber"
+        android:id="@+id/phonenumber_TextView"
+        android:layout_below="@+id/lastname_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:id="@+id/email_TextView"
+        android:layout_below="@+id/phonenumber_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="income"
+        android:id="@+id/income_TextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Btnsumbit"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnSubmit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/phonenumber_TextView"
+        android:layout_alignEnd="@+id/phonenumber_TextView"
+        android:layout_marginBottom="92dp" />
+
+</RelativeLayout>

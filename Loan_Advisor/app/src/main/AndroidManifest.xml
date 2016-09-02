@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.1" package="loan.advisor.lukekramer.assignment6" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:theme="@style/AppTheme" android:label="Loan Advisor" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:name="loan.advisor.lukekramer.assignment6.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="loan.advisor.lukekramer.assignment6.RegisterClient" />
+        <activity android:name="loan.advisor.lukekramer.assignment6.RegisterClientPreview" />
+        <activity android:name="loan.advisor.lukekramer.assignment6.ShowAll" />
+        <activity android:name="loan.advisor.lukekramer.assignment6.Login" />
+        <activity android:name="loan.advisor.lukekramer.assignment6.MakeLoan" />
+        <activity android:name="loan.advisor.lukekramer.assignment6.Output" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.login.Impl.ActivateLoginServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.client.Impl.ActivateClientServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.loan.Impl.ActivateLoanServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.result.Impl.ActivateResultServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.usertype.Impl.ActivateUserTypeServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.loanstatus.Impl.ActivateLoanResultServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.bank.Impl.ActivateBankConfirmationServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.username.Impl.ActivateUserNameServiceImpl" />
+        <service android:name="loan.advisor.lukekramer.assignment6.services.password.Impl.ActivateUserPasswordServiceImpl" />
+    </application>
+</manifest>
