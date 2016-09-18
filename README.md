@@ -24,6 +24,8 @@ User income is used to determine which one of the three category types a user ca
 The Blue entities namely clients,loans and results represent the tables within the applications Loan database.
 These enetitys are sent to the database on the backend in the cloud as well.
 
+
+
 ##Services
 
 These services are bound services that run on its on repective thread to allow maximum through put and minimal application loading delays. These are the services in the order they will be called(ActivateclientService,ActivateUserTypeService,ActivateLoginService,ActivateUserNameService,ActivatePasswordService,ActivateBankConfirmationService,ActivateLoanResultService,ActivateLoanService).
@@ -32,3 +34,6 @@ These services are bound services that run on its on repective thread to allow m
 
 This directory contains the methods used to communicate with the cloud/Backend.
 These methods are also implemented in its Appropriate Activity
+
+##Very Important!!!
+You need a valid gmail address to register successfully!!
